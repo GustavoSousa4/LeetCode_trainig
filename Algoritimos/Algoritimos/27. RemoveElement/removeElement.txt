@@ -1,0 +1,39 @@
+﻿Dado um array de inteiros numse um inteiro val, remova todas as ocorrências de valem nums in-place . A ordem dos elementos pode ser alterada. Então retorne o número de elementos em numsque não são iguais aval .
+
+Considere o número de elementos em numsque não são iguais a val, kpara ser aceito, você precisa fazer o seguinte:
+
+Altere o array numsde modo que os primeiros kelementos de numscontenham os elementos que não são iguais a val. Os elementos restantes de numsnão são importantes, assim como o tamanho de nums.
+Retornar k.
+Juiz Aduaneiro:
+
+O juiz testará sua solução com o seguinte código:
+
+int[] nums = [...]; // Matriz de entrada
+int val = ...; // Valor a ser removido
+int[] expectedNums = [...]; // A resposta esperada com o comprimento correto.
+                            // É classificado sem valores iguais a val.
+
+int k = removeElement(nums, val); // Chama sua implementação
+
+afirmar k == expectedNums.length;
+sort(nums, 0, k); // Classifica os primeiros k elementos de nums
+para (int i = 0; i < comprimento real; i++) {
+    afirmar nums[i] == expectedNums[i];
+}
+Se todas as afirmações forem aprovadas, sua solução será aceita .
+
+ 
+
+Exemplo 1:
+
+Entrada: nums = [3,2,2,3], val = 3
+ Saída: 2, nums = [2,2,_,_]
+ Explicação: Sua função deve retornar k = 2, com os dois primeiros elementos de nums sendo 2.
+Não importa o que você deixar além do k retornado (por isso são sublinhados).
+Exemplo 2:
+
+Entrada: nums = [0,1,2,2,3,0,4,2], val = 2
+ Saída: 5, nums = [0,1,4,0,3,_,_,_]
+ Explicação: Sua função deve retornar k = 5, com os cinco primeiros elementos de nums contendo 0, 0, 1, 3 e 4.
+Observe que os cinco elementos podem ser retornados em qualquer ordem.
+Não importa o que você deixar além do k retornado (por isso são sublinhados).

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\MyProjects\\LeetCode_trainig\\Algoritimos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{804D2EC4-C6A1-4EF9-B786-0BF9C5EB0F02}|Algoritimos\\Algoritimos.csproj|c:\\myprojects\\leetcode_trainig\\algoritimos\\algoritimos\\1.twosum\\twosum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804D2EC4-C6A1-4EF9-B786-0BF9C5EB0F02}|Algoritimos\\Algoritimos.csproj|solutionrelative:algoritimos\\1.twosum\\twosum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{804D2EC4-C6A1-4EF9-B786-0BF9C5EB0F02}|Algoritimos\\Algoritimos.csproj|c:\\myprojects\\leetcode_trainig\\algoritimos\\algoritimos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{804D2EC4-C6A1-4EF9-B786-0BF9C5EB0F02}|Algoritimos\\Algoritimos.csproj|solutionrelative:algoritimos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TwoSum.cs",
+              "DocumentMoniker": "C:\\MyProjects\\LeetCode_trainig\\Algoritimos\\Algoritimos\\1.TwoSum\\TwoSum.cs",
+              "RelativeDocumentMoniker": "Algoritimos\\1.TwoSum\\TwoSum.cs",
+              "ToolTip": "C:\\MyProjects\\LeetCode_trainig\\Algoritimos\\Algoritimos\\1.TwoSum\\TwoSum.cs",
+              "RelativeToolTip": "Algoritimos\\1.TwoSum\\TwoSum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T18:25:13.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\MyProjects\\LeetCode_trainig\\Algoritimos\\Algoritimos\\Program.cs",
               "RelativeDocumentMoniker": "Algoritimos\\Program.cs",
