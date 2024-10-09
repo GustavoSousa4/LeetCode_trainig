@@ -21,5 +21,14 @@ namespace Algoritimos
             }
             return count;
         }
+        public int removeElementLinq(int[] nums, int val)
+        {
+            if(nums is null || nums.Length == 0) return 0;
+            
+            var target = nums.Where(x => x != val).ToArray();
+            Array.Copy(target, nums, target.Length);
+            
+            return target.Length;
+        }
     }
 }

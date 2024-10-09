@@ -21,5 +21,15 @@ namespace Algoritimos
             }
             return count;
         }
+
+        public int removeDuplicatesLinq(int[] nums)
+        {
+            if(nums == null || nums.Length == 0) return 0;
+
+            var target = nums.Distinct().ToArray();
+            Array.Copy(target, nums, target.Length);
+
+            return target.Length;
+        }
     }
 }
